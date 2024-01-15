@@ -1,0 +1,122 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('./assets/imagethree.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 20px;
+}
+
+#content {
+    text-align: center;
+}
+
+.form-section {
+    max-width: 400px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+
+.form-section label {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+input,
+textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: red;
+}
+
+#stockDisplay {
+    margin-top: 20px;
+    
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+}
+
+.accordion {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.accordion-item {
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.accordion-button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+}
+
+.accordion-content {
+    padding: 10px;
+}
+input {
+    padding: 8px;
+    font-weight: bold;
+    color: red;
+}
+
+
+  
